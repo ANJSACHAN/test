@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+
+}
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.nav{
+    display: flex;
+    width: 700px;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+.nav1{
+    display: flex;
+    background-color: black;
+    font-size: 2rem;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 98%;
+    margin: 50px auto;
+    height: 550px;
+    
+}
+section{
+    width: 50%;
+    height: 550px;
+    margin: 10px 20px;
+    box-shadow: 3px 5px 10px rgb(73, 72, 73); 
+    background: linear-gradient(0.25turn, #613bb5, #c8437d, #332e9a);
+    ;
+   
+}
+body{
+    background: linear-gradient(0.25turn, #9d2b8c, #6a34a3, #d431cc);
+    ;
+
+}
+  
+h1{
+    margin-top: 30%;
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(238, 229, 238);
+    text-shadow: 2px 2px 4px lightskyblue;
+}
+section img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+section button{
+   background-color: white;
+   margin-top: 20px;
+   margin-left: 45%;
+   width: 200px;
+   height: 50px;
+   border-radius: 20px;
+
+}
+.section3{
+    display: flex;
+    margin-left: 300px;
+    
+}
+div{
+    border-radius: 20px;
+}
+div img{
+    border-radius: 35px;
+}
+li:hover{
+    color: aqua;
+}
+button:hover{
+    background-color: aqua;
+}
+figure{
+    margin: 20px;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(0.25turn, #101010, #0e001d, #0f090f);
+    ;
+}
+figure h2{
+    margin-left: 40%;
+    color: white;
+    margin-top: 60px;
+    padding: 50px;
+    font-size: 4rem;
+}
+figure h3{
+    margin-left: 30%;
+    color: white;
+    font-size: 3rem;
+}
+footer{
+    bottom: 0px;
+    width: 100%;
+display: flex;
+justify-content: space-around;
+
+
+
+background: linear-gradient(0.50turn, #35454c, #380cbd, #2b4dd4);
+
+}  
+.foot{
+    width: 300px;
+display: flex;
+    
+}
+.fmain{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.feet{
+    font-size: 1rem;
+}
+i{
+    padding-right: 20px;
+    font-size: 1.5rem;
+}
